@@ -1,0 +1,8 @@
+.user-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin: 4px;
+    background-color: lightblue;
+    width: 50vw;
+}

@@ -1,0 +1,39 @@
+.users-container{
+    display: flex;
+    justify-content: space-between;
+}
+.users-container input {
+    width: 50px;
+}
+
+.users-table {
+    /* table-layout: fixed; */
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    
+}
+.users-table thead{
+    border-bottom: 2px solid purple;
+}
+
+.users-table tr{
+    border-bottom: 1px solid gray;
+}
+
+td{
+    padding: 20px;
+}
+
+.add-users-div{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    background-color: burlywood;
+    padding: 20px;
+    border: black 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    margin: 0 10px 0 0;
+}
